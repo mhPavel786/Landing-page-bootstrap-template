@@ -1,0 +1,215 @@
+/*=====================
+
+Project name : Landing Page
+Designer     : MH Pavel
+email        : mhpavel786@gmail.com
+========================*/
+/* Documentation
+
+>>>Section<<<
+
+1.Header
+2.Hero section
+3.Fusce at
+4.Facilisis          
+5.Ante donec          
+6.Blandit rhoncus          
+7.Placerat
+7.Footer
+
+=========================*/
+
+
+
+/* basic setup */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Roboto Slab', serif;
+}
+/* global css*/
+
+h1{
+font-size: 60px;
+color: white;
+text-align: center;
+}
+p{
+	color: white;
+	font-weight: 100;
+	text-align: center;
+}
+h6{
+	color: black;
+	font-size: 30px;
+}
+h2{
+font-size: 30px;
+color: white;
+font-weight: 400;
+text-align: center;
+}
+h3{
+font-weight: 600;
+font-size: 30px;
+margin: 8px;
+color: black;
+}
+h4{
+	font-weight: 100;
+	font-size: 14px;
+	color: black;
+	margin-bottom: 8px;
+}
+h5{
+	font-weight: 100;
+	font-size: 14px;
+	color: white;
+	margin-bottom: 8px;
+}
+
+
+/* theme css starts */
+/* header */
+.navbar-head{
+	padding: 25px 0px;
+	background-color: #edeff1!important;
+}
+.nav-link{
+	color: #31353e!important;
+}
+.nav-link.js-scroll-trigger.active{
+	background-color: #dd4b2b;
+	padding: 17px 25px;
+	border-radius: 40px;
+	color: white!important;
+}
+div#navbarResponsive {
+    margin-top: 5px;
+}
+/* hero section*/
+.hero{
+	background-image:url('../img/hero-sec-bg.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-top: 450px;
+	background-size: cover;
+}
+.hero-img{
+	padding: 30px 0px;
+}
+.img-fluid{
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0px;
+}
+.btn-pav{
+color: #612316;
+padding: 20px 140px;
+border-radius: 40px;
+border: none;
+display: block;
+margin: 2% auto;
+}
+/* fourth sec starts*/
+.fourth{
+	background-color: #edeff1;
+	text-align: center;
+}
+.btn-one{
+	background-color: white;
+    color: black;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+/*fifth sec*/
+.fifth{
+	background-image:url('../img/login-se.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	text-align: center;
+	position: relative;
+}
+.email{
+border: none;
+    opacity: .6;
+    width: 80%;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+.sign{
+	border: none;
+    width: 20%;
+    border-radius: 40px;
+    padding: 10px 15px;
+    position: absolute;
+    top: 62%;
+    right: 12%;
+}
+/*sixth section */
+.btn-two{
+	background-color: #dd4b2b;
+    color: white;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 25%;
+}
+.btn-three{
+	background-color: #4b4e73;
+    color: white;
+    padding: 18px 50px;
+    border: none;
+    border-radius: 40px;
+    margin-top: 25%;
+}
+/*seventh section*/
+#placerat{
+	background-color: #d75d0e;
+	text-align: center;
+}
+/*Footer section*/
+footer{
+	background-image:url('../img/login-se.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 150px 0px;
+	
+}
+
+/* Media query */
+@media (min-width: 700px) and (max-width: 991.98px){
+	.nav-link.js-scroll-trigger.active{
+		background-color: transparent;
+		color: black!important;
+	}
+	.sign{
+	top: 66%;
+    right: 14%;
+    padding: 10px 9px;
+	}
+}
+@media (max-width: 575.98px){
+	.nav-link.js-scroll-trigger.active{
+		background-color: transparent;
+		color: black!important;
+	}
+	.sign{
+		top: 66%;
+   	 right: 12%;
+	}
+}
+
